@@ -1,0 +1,14 @@
+
+.rows{
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+
+#picture {
+  height:300px;
+  width: 300px;
+  padding-top: 20px;
+}

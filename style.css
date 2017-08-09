@@ -1,0 +1,34 @@
+.body {
+  position:relative;
+}
+
+.navbar {
+background: black;
+}
+
+.navbar .navbar-brand {
+  color: white;
+  font-family: 'Bungee Hairline', cursive;
+
+
+}
+
+.navbar .nav {
+  color: white;
+
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#title {
+  padding-top: 50px;
+  text-align: center;
+
+}
+
+.building {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: 30%;
+}
