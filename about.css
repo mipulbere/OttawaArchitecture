@@ -1,6 +1,19 @@
 .body {
-  background-image: url(Parlamento-Ottawa.jpg);
+  background-image: url(backround2.jpg);
   background-attachment: fixed;
+  background-repeat:no-repeat;
 
+}
 
+.title {
+  padding-top: 40px;
+  text-align: left;
+  color: white;
+}
+
+.paragraph {
+  text-align: left;
+  color: white;
+  width: 500px;
+  text-align: justify;
 }

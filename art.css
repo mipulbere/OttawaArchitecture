@@ -1,3 +1,11 @@
+.body {
+  background-image: url(painting.jpg);
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+
+}
+
+
 .rows{
   display: flex;
   position: relative;
@@ -7,7 +15,25 @@
 
 
 #picture {
-  height:300px;
-  width: 300px;
+  height:500px;
+  width: 500px;
+  align-content: flex-start;
+  border: 1px solid black;
+}
+
+
+#paragraph {
+  width: 500px;
+  text-align: justify;
   padding-top: 20px;
+}
+
+
+#title {
+  text-align:center;
+
+}
+
+#squareOne {
+
 }
