@@ -6,6 +6,13 @@
 <link href = "about.css" rel = "stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Megrim|Roboto:100" rel="stylesheet">
 
+
+<!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+<script type="text/javascript" src="jquery.fullPage.js"></script>
+
 <body class="body">
 <div class = "container">
 
@@ -38,7 +45,111 @@
     </div>
   </nav>
 
-  <h1 class = "title" >Discover Ottawa's architecture and street art</h1>
+  <div id="fullpage">
+    <div class="section"><h1 class = "title" >Discover Ottawa's architecture and street art</h1></div>
+    <div class="section"><p class = "paragraph" >Our idea is simple: to show people how much Canada's Capital really has to offer.
+          Here, you can browse through all the buildings and art pieces that we have displayed,
+          to find out where they are located and maybe visit them for yourself! </p></div>
+  	<div class="section">
+      <h1 class = "title" >Why do this?</h1>
+      <p class = "paragraph" >One of my favourite cities is New York City. One of the reasons I love it so much is
+        because you are always surrounded by SO much art. Art expressed through buildings and
+        art expressed through murals and spray paintings on practically every street corner.
+        On my latest trip there, I realized how little of that I noticed in my own home town
+        and how it is probably being underappreciated by so many like me. I am also a computer
+        science student. So i am always looking for ways to practice and learn new skills relating
+        to the field. As a result, my father gave me a great idea. To creating a website where
+        I can showcase Ottawa's art and combine my passion of photography and computer science.
+        So, here we are! </p></div>
+  	<div class="section">
+      <h1 class = "title" >Can I contribute?</h1>
+      <p class = "paragraph" >Yes please! If you know of an art piece or a particularily interesting building that isnt
+        displayed on this website, please <a href="contact.html">contact</a> me. </p>
+    </div>
+  </div>
+
+  </body>
+  </div>
+
+  <script>
+  $(document).ready(function() {
+  	$('#fullpage').fullpage({
+  		//Navigation
+  		menu: '#menu',
+  		lockAnchors: false,
+  		anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+  		navigation: false,
+  		navigationPosition: 'right',
+  		navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'fourthSlide'],
+  		showActiveTooltip: false,
+  		slidesNavigation: false,
+  		slidesNavPosition: 'bottom',
+
+  		//Scrolling
+  		css3: true,
+  		scrollingSpeed: 700,
+  		autoScrolling: true,
+  		fitToSection: true,
+  		fitToSectionDelay: 1000,
+  		scrollBar: false,
+  		easing: 'easeInOutCubic',
+  		easingcss3: 'ease',
+  		loopBottom: false,
+  		loopTop: false,
+  		loopHorizontal: true,
+  		continuousVertical: false,
+  		continuousHorizontal: false,
+  		scrollHorizontally: false,
+  		interlockedSlides: false,
+  		dragAndMove: false,
+  		offsetSections: false,
+  		resetSliders: false,
+  		fadingEffect: false,
+  		normalScrollElements: '#element1, .element2, .element3, .element4',
+  		scrollOverflow: false,
+  		scrollOverflowReset: false,
+  		scrollOverflowOptions: null,
+  		touchSensitivity: 15,
+  		normalScrollElementTouchThreshold: 5,
+  		bigSectionsDestination: null,
+
+  		//Accessibility
+  		keyboardScrolling: true,
+  		animateAnchor: true,
+  		recordHistory: true,
+
+  		//Design
+  		controlArrows: true,
+  		verticalCentered: true,
+  		sectionsColor : ['pink', 'blue', 'yellow', 'green'],
+  		paddingTop: '3em',
+  		paddingBottom: '10px',
+  		fixedElements: '#header, .footer',
+  		responsiveWidth: 0,
+  		responsiveHeight: 0,
+  		responsiveSlides: false,
+  		parallax: false,
+  		parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
+
+  		//Custom selectors
+  		sectionSelector: '.section',
+  		slideSelector: '.slide',
+
+  		lazyLoading: true,
+
+  		//events
+  		onLeave: function(index, nextIndex, direction){},
+  		afterLoad: function(anchorLink, index){},
+  		afterRender: function(){},
+  		afterResize: function(){},
+  		afterResponsive: function(isResponsive){},
+  		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+  		onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
+  	});
+  });
+  </script>
+
+<!--  <h1 class = "title" >Discover Ottawa's architecture and street art</h1>
 
 
   <p class = "paragraph" >Our idea is simple: to show people how much Canada's Capital really has to offer.
@@ -116,15 +227,9 @@
                 to the field. As a result, my father gave me a great idea. To creating a website where
                 I can showcase Ottawa's art and combine my passion of photography and computer science.
                 So, here we are! </p>
+ -->
 
 
-
-
-
-</div>
-
-
-</body>
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.js"></script>
 
 <script>
@@ -133,7 +238,6 @@ sr.reveal('.paragraph', {origin: 'left', distance: '100px', duration: 2000 });
 sr.reveal('.title', {origin: 'right', distance: '100px', duration: 2000 });
 </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </html>

@@ -1,11 +1,8 @@
 .body {
-  background-image: url(painting.jpg);
   background-attachment: fixed;
   background-repeat:no-repeat;
 
 }
-
-
 .rows{
   display: flex;
   position: relative;
@@ -14,26 +11,116 @@
 }
 
 
-#picture {
-  height:500px;
-  width: 500px;
-  align-content: flex-start;
-  border: 1px solid black;
+.descr {
+    position: absolute;
+    top: 40%;
+    cursor: default;
+    text-align: center;
+    font-size: 30pt;
+    display: none;
+    width: 100%;
 }
 
-
-#paragraph {
-  width: 500px;
-  text-align: justify;
+.parent {
+  width: 400px;
+  height: 300px;
+  padding-left: 20px;
   padding-top: 20px;
 }
 
-
-#title {
-  text-align:center;
+.child1 {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("http://www.ottawalife.com/admin/cms/images/large/ottawa-murals-top-areas-to-scope-out-street-art-russian-dolls-jpg.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all .3s;
 
 }
 
-#squareOne {
+.parent:hover .child1,
+.parent:focus .child1 {
+  transform: scale(1.1);
+}
+.child1:hover .descr{
+  display: block;
+}
+.parent:hover .child1{
+  opacity:0.4;
+}
+
+.child2 {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/04/65/14/046514b393a3776f7172f25071baa2ad.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all .3s;
+
+}
+
+.parent:hover .child2,
+.parent:focus .child2 {
+  transform: scale(1.1);
+}
+
+.child2:hover .descr{
+  display: block;
+}
+.parent:hover .child2{
+  opacity:0.4;
+}
+
+.child3 {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/7e/2d/c2/7e2dc27001d8243ce1429406704a5deb--d-street-art-painted-stairs.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all .3s;
+
+}
+.parent:hover .child3,
+.parent:focus .child3 {
+  transform: scale(1.1);
+}
+
+.child3:hover .descr{
+  display: block;
+}
+.parent:hover .child3{
+  opacity:0.4;
+}
+
+
+.child4 {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("http://ottawa.ca/sites/default/files/15k-411_006_1980_ogilvie.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all .3s;
+
+}
+.parent:hover .child4,
+.parent:focus .child4 {
+  transform: scale(1.1);
+}
+
+.child4:hover .descr{
+  display: block;
+}
+.parent:hover .child4{
+  opacity:0.4;
+}
+
+]
+
+#title {
+  text-align:center;
 
 }
