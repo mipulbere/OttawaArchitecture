@@ -1,4 +1,6 @@
-
+.header {
+  padding-top: 60px;
+}
 .rows{
   display: flex;
   position: relative;

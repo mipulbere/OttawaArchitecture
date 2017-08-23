@@ -25,13 +25,12 @@ background: black;
 }
 
 .title {
-  padding-top: 40px;
-  text-align: left;
+  text-align: center;
   color: white;
 }
 
 .paragraph {
-  text-align: left;
+  text-align:center;
   color: white;
   width: 500px;
   text-align: justify;
