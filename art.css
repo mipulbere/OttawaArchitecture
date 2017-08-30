@@ -1,7 +1,11 @@
-.header {
-padding-top: 60px;
-
-}
+.artHeader {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  color: black;
+  }
 
 .body {
   background-attachment: fixed;
@@ -125,7 +129,7 @@ padding-top: 60px;
 
 ]
 
-#title {
+.artTitle {
   text-align:center;
 
 }
