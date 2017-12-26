@@ -5,6 +5,14 @@
 <link href = "style.css" rel = "stylesheet">
 <link href = "architecture.css" rel = "stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Megrim|Roboto:100" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Bungee|Plaster|Rubik+Mono+One|Zilla+Slab+Highlight" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,500|Raleway|Roboto" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+<script type="text/javascript" src="jquery.fullPage.js"></script>
+<script type="text/javascript" src="jquery.fullPage.min.js"></script>
 
 <body>
 <div class = "container">
@@ -16,105 +24,134 @@
           <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#mainNavBar">
             <span class = "icon-bar"></span>
             <span class = "icon-bar"></span>
-            <span class = "icon-bar"></span>
           </button>
           <a href="index.html" class="navbar-brand" >OTTAWA ARCHITECTURE</a>
         </div>
 
         <div class = "collapse navbar-collapse" id = "mainNavBar">
           <ul class="nav navbar-nav">
-            <li><a href="about.html">About</a></li>
-            <li class = "dropdown">
-              <a href="architecture.html" class="dropdown-toggle"  data-toggle = "dropdown" role = "button" aria-haspopup = "true" aria-expanded = "false">
-                Architecture <span class = "caret"></span></a>
-                <ul class = "dropdown-menu" id = "navigation">
-                  <li class = "active"><a href="#brick">Brick</a></li>
-                  <li><a href="#glass">Glass</a></li>
-                  <li><a href="#stone">Stone</a></li>
-                </ul>
-            </li>
+            <li><a href="architecture.html">Architecture</a></li>
             <li><a href="art.html">Art</a></li>
           </ul>
         </div>
 
     </div>
   </nav>
+</div>
 
 
-  <h1 class = "header">Ottawa's architectural gems</h1>
 
 
-
-  <div class = "container">
-      <div role = "main">
-      <h2 id = "brick">Brick Buildings</h2>
-      <div class="rows" class = "lead">
-        <img id="picture" src="http://www.ontarioarchitecture.com/victorian/Vicbarrie.jpg"/>
-        <img id="picture" src="http://wpmedia.ottawacitizen.com/2016/04/electric-substation-at-1275-carling-avenue-in-ottawa-thursd.jpeg"/>
-        <img id="picture" src="http://vikpahwa.com/wp-content/uploads/2013/09/Photo20130830_1641.jpg"/>
+    <div id="fullpage" class= "fullpage-wrapper">
+      <div class="section active">
+        <h1 class = "header">Ottawa's Architectural Gems</h1>
       </div>
 
-        <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
+      <div class="section">
+        <div class="intro">
+          <h2 class = "subTitle">Brick Buildings</h2>
+          <div class="rows" class = "lead">
+                  <div class="parent">
+                    <div class="child1">
+                    </div>
+                  </div>
 
-      <h2 id = "glass">Glass Buildings</h2>
+                  <div class="parent">
+                    <div class="child2">
+                    </div>
+                  </div>
+
+                  <div class="parent">
+                    <div class="child3">
+                    </div>
+                  </div>
+          </div>
+          </div>
+      </div>
+
+      <div class="section">
+        <div class="intro">
+      <h2 class = "subTitle">Glass Buildings</h2>
       <div class="rows" class = "lead">
-          <img id="picture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/National_Gallery_of_Canada_glass_tower_2005.jpg/1200px-National_Gallery_of_Canada_glass_tower_2005.jpg"/>
-          <img id="picture" src="http://www.ontarioarchitecture.com/Pomoott.jpg"/>
-          <img id="picture" src="https://www.tourismeottawa.ca/wp-content/uploads/2014/11/Shaw-Centre_1-985x552.jpg"/>
+        <div class="parent">
+          <div class="child4">
+          </div>
         </div>
 
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          </p>
+        <div class="parent">
+          <div class="child5">
+          </div>
+        </div>
 
-      <h2 id = "stone" >Stone Buildings</h2>
-      <div class="rows" class = "lead">
-          <img id="picture" src="https://www.crhp-rclp.ca/UploadedImages/73539.jpg"/>
-          <img id="picture" src="http://www.nrc-cnrc.gc.ca/ctu-sc/files/images/ctu-sc/ctu67/fig1.jpg"/>
-          <img id="picture" src="https://s-media-cache-ak0.pinimg.com/736x/7f/f0/29/7ff029b40759d0a74373d80fa7429bf5--neoclassical-architecture-slotte.jpg"/>
+        <div class="parent">
+          <div class="child6">
+          </div>
+        </div>
+        </div>
+
+        </div>
       </div>
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          </p>
+
+      <div class="section">
+        <div class="intro">
+      <h2 class = "subTitle" >Stone Buildings</h2>
+      <div class="rows" class = "lead">
+        <div class="parent">
+          <div class="child7">
+          </div>
+        </div>
+
+        <div class="parent">
+          <div class="child8">
+          </div>
+        </div>
+
+        <div class="parent">
+          <div class="child9">
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
 
     </div>
-  </div>
-
-
-<script>
-  $ (document).ready(function(){
-    $ ('body').scrollspy({target: '#navigation'});
-  });
-</script>
-</body>
 
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+          $('#fullpage').fullpage({
+              sectionsColor: ['black', '#BCAC90', 'whitesmoke', '#C2BBA9'],
+              anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage'],
+              menu: '#menu',
+              css3: true,
+              scrollingSpeed: 1000
+          });
+
+          $('#showExamples').click(function(e){
+              e.stopPropagation();
+              e.preventDefault();
+              $('#examplesList').toggle();
+          });
+
+          $('html').click(function(){
+              $('#examplesList').hide();
+          });
+      });
+    </script>
+
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.js"></script>
+<!--
+  <script>
+  window.sr = ScrollReveal();
+  sr.reveal('.picture', {origin: 'bottom', distance: '100px', duration: 2000 });
+  </script>
+</body> -->
+
+
+
+
 <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </html>

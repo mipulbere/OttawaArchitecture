@@ -1,7 +1,3 @@
-.body {
-  position:relative;
-}
-
 .navbar {
 background: black;
 }
@@ -9,26 +5,44 @@ background: black;
 .navbar .navbar-brand {
   color: white;
   font-family: 'Bungee Hairline', cursive;
-
-
 }
 
 .navbar .nav {
   color: white;
-
   font-family: 'Roboto', sans-serif;
-
 }
 
-#title {
-  padding-top: 50px;
+.title {
   text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  color: whitesmoke;
+
 
 }
 
-.building {
-  display: block;
-  margin: auto;
-  width: 50%;
-  height: 30%;
+.paragraph {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  text-align:center;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+
+.paragraph2 {
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align:center;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+#section1 .fb-bg {
+  background-image: url(background2.jpg);
+  background-size: cover;
+  background-position: center 80%;
 }
